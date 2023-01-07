@@ -2,6 +2,23 @@
 This repository describes how to use kotlin serialisation library in android applications
 
 
+## What is Serialization and Encoding
+* An `Object` in a computer memory consists of binary data that a computer can directly use it.
+* `Serialization` is the process of reducing the `object` into its primitive structure like `integer`,`array`,`etc` in a manner that preserves that structure.
+* `Encoding` is a process of converting a serialized object into a `output format` by following a specific set of rules.
+* `Class Object` **`-----serialization---->`** `Machine readable binary structure` **`-----encoding---->`** `Json/Xml structure`
+* `Class { int x, int y }` **`---->`** `{11011101,10011111}` **`---->`** `{"x":12312,"y":12233}`
+* After the serialization, We view it as a human redable format.
+
+## What is De-Serialization and Decoding
+* The input data which is in human redable form which is `json/xml` is `deserialized` into `primitives` and then `decoded` into objects. 
+* `Json/Xml structure` **`-----deserialization---->`** `Primitives` **`-----decoding---->`** `Class Object`.
+<p align="center">
+<a><img src="https://github.com/devrath/KotlinSerialization/blob/main/Assets/SerilizationDeDiagram.png"></a>
+</p>
+
+
+
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
 If you feel like support me a coffee for my efforts, I would greatly appreciate it.</br>
