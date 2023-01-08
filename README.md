@@ -1,6 +1,10 @@
 # KotlinSerialization
 This repository describes how to use kotlin serialisation library in android applications
 
+[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)
+[![JetBrains official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+
 
 ## What is Serialization and Encoding
 * An `Object` in a computer memory consists of binary data that a computer can directly use it.
