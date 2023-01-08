@@ -1,4 +1,6 @@
-# KotlinSerialization
+<img src="https://github.com/devrath/devrath/blob/master/images/kotlin_logo.png" align="right" title="Kotlin Logo" width="120">
+
+# KotlinSerialization  🧞‍
 This repository describes how to use kotlin serialisation library in android applications
 
 [![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)
