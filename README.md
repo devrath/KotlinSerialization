@@ -12,10 +12,11 @@ This repository describes how to use kotlin serialisation library in android app
 | ------ |
 | [```𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚍 𝙴𝚗𝚌𝚘𝚍𝚒𝚗𝚐```]() |
 | [```𝚆𝚑𝚊𝚝 𝚒𝚜 𝙳𝚎-𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚍 𝙳𝚎𝚌𝚘𝚍𝚒𝚗𝚐```]() |
+| [```𝙺𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝙼𝚘𝚜𝚑𝚒 𝚊𝚗𝚍 𝙶𝚜𝚘𝚗```]() |
 | [```𝙲𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚗𝚐 𝚊 𝙼𝚘𝚍𝚎𝚕 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗𝚝𝚘 𝚊 𝙹𝚂𝙾𝙽 𝚜𝚝𝚛𝚒𝚗𝚐```]() |
 | [```𝚄𝚜𝚒𝚗𝚐 @𝚃𝚛𝚊𝚗𝚜𝚒𝚎𝚗𝚝 𝚊𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚖𝚘𝚍𝚎𝚕```]() |
 | [```𝙿𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚊𝚛𝚗𝚒𝚗𝚐 𝚏𝚘𝚛 𝚊 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚘𝚏 𝚖𝚘𝚍𝚎𝚕 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚗𝚘𝚝 𝚜𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚎𝚍```]() |
-| [```𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚜𝚎```]() |
+| [```𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚎```]() |
 
 </div>
 
@@ -36,6 +37,16 @@ This repository describes how to use kotlin serialisation library in android app
 <p align="center">
 <a><img src="https://github.com/devrath/KotlinSerialization/blob/main/Assets/SerilizationDeDiagram.png"></a>
 </p>
+
+## `𝙺𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝙼𝚘𝚜𝚑𝚒 𝚊𝚗𝚍 𝙶𝚜𝚘𝚗`
+| **`Moshi`** | **`Gson`** | **`KotlinSerialization`** |
+| ----- | ---- | ------------------- |
+| Uses code genaration | Uses reflection | Uses code generation, compiler plugin is used instead of annotation |
+| Faster runtime performance | Slow runtime performance | Good runtime performance |
+| Increased build time | build time is not increased | Fast build time |
+* Moshi has more advanced features and provides a lower-level JSON API for maximum control
+* Kotlin Serialization is also used in KMP(Kotlin Multi Platfprm)
+* Kotlin Serialization is also compatible with unsigned integer types, value classes and sealed classes out-of-the-box.
 
 ## `𝙲𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚗𝚐 𝚊 𝙼𝚘𝚍𝚎𝚕 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗𝚝𝚘 𝚊 𝙹𝚂𝙾𝙽 𝚜𝚝𝚛𝚒𝚗𝚐`
 One of the normal usecases we face is converting `Model` objects into `JSON` string 
@@ -105,7 +116,7 @@ StudentInfo(studentName=Ramesh, studentAge=21) //Printing the student model
 <a><img src="https://github.com/devrath/KotlinSerialization/blob/main/Assets/kotlinxError.png"></a>
 </p>
 
-## `𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚜𝚎`
+## `𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚎`
 * If you have a field that’s in the data class but not in the API, it simply returns null… OR if you set a default value on it, it will remain that default value.
 * This is one of the defining traits of Kotlinx Serialization. With most of the other json parsers, even if you set a default value like with the above code, if name were not to be found in the API, they would be null. In Kotlinx, it defaults back to the default value.
 ```kotlin
