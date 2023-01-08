@@ -6,6 +6,8 @@ This repository describes how to use kotlin serialisation library in android app
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
 
+<div align="center">
+    
 | Topics |
 | ------ |
 | [```𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚍 𝙴𝚗𝚌𝚘𝚍𝚒𝚗𝚐```]() |
@@ -15,6 +17,7 @@ This repository describes how to use kotlin serialisation library in android app
 | [```𝙿𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚊𝚛𝚗𝚒𝚗𝚐 𝚏𝚘𝚛 𝚊 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚘𝚏 𝚖𝚘𝚍𝚎𝚕 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚗𝚘𝚝 𝚜𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚎𝚍```]() |
 | [```𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚜𝚎```]() |
 
+</div>
 
 
 
