@@ -107,7 +107,7 @@ StudentInfo(studentName=Ramesh, studentAge=21) //Printing the student model
 
 ## `𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚜𝚎`
 * If you have a field that’s in the data class but not in the API, it simply returns null… OR if you set a default value on it, it will remain that default value.
-* This is one of the defining traits of Kotlinx Serialization. With most of the other json parsers, even if you set a default value like with the above code, if name where to not be found in the API, they would be null. In Kotlinx, it defaults back to the default value.
+* This is one of the defining traits of Kotlinx Serialization. With most of the other json parsers, even if you set a default value like with the above code, if name were not to be found in the API, they would be null. In Kotlinx, it defaults back to the default value.
 ```kotlin
 @Serializable
 data class StudentInfo(
