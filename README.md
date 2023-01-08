@@ -21,6 +21,68 @@ This repository describes how to use kotlin serialisation library in android app
 <a><img src="https://github.com/devrath/KotlinSerialization/blob/main/Assets/SerilizationDeDiagram.png"></a>
 </p>
 
+## `𝙲𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚗𝚐 𝚊 𝙼𝚘𝚍𝚎𝚕 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗𝚝𝚘 𝚊 𝙹𝚂𝙾𝙽 𝚜𝚝𝚛𝚒𝚗𝚐`
+One of the normal usecases we face is converting `Model` objects into `JSON` string 
+
+* Model object
+```kotlin
+@Serializable
+data class StudentInfo(
+    @SerialName("name")
+    val studentName: String,
+    @SerialName("age")
+    val studentAge: Int,
+)
+```
+* Converting the model object to json string
+```kotlin
+fun main() {
+    val studentModel = StudentInfo("Ramesh", 21)
+    println(studentModel)
+
+    val json = Json.encodeToString(StudentInfo.serializer(), studentModel)
+    println(json)
+}
+```
+* Output
+```
+StudentInfo(studentName=Ramesh, studentAge=21) //Printing the student model
+{"name":"Ramesh","age":21} //Printing the json string
+```
+
+## `𝚄𝚜𝚒𝚗𝚐 @𝚃𝚛𝚊𝚗𝚜𝚒𝚎𝚗𝚝 𝚊𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚖𝚘𝚍𝚎𝚕`
+* Marks this property invisible for the whole serialization process, including serial descriptors. Transient properties should have default values.
+
+* Model object
+```kotlin
+@Serializable
+data class StudentInfo(
+    @SerialName("name")
+    val studentName: String,
+    @SerialName("age")
+    val studentAge: Int,
+    @Transient
+    val isMale: Boolean = false
+)
+```
+* Converting the model object to json
+```kotlin
+fun main() {
+    val lollipop = StudentInfo("Ramesh", 21)
+    println(lollipop)
+
+    val json = Json.encodeToString(StudentInfo.serializer(), lollipop)
+    println(json)
+}
+```
+* Output
+```
+// Observe the isMale property is not serialized and printed as string
+StudentInfo(studentName=Ramesh, studentAge=21) //Printing the student model
+{"name":"Ramesh","age":21} //Printing the json string
+```
+
+
 
 
 
