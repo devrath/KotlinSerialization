@@ -21,6 +21,14 @@ This repository describes how to use kotlin serialisation library in android app
 
 </div>
 
+<div align="center">
+
+| **`Output`** |
+| ----------- |
+| <img src="https://github.com/devrath/fluffy-okhttp-interceptors/blob/main/assets/demo.gif" width="220" height="460"/> |
+
+</div>
+
 
 
 
@@ -96,10 +104,10 @@ data class StudentInfo(
 * Converting the model object to json
 ```kotlin
 fun main() {
-    val lollipop = StudentInfo("Ramesh", 21)
-    println(lollipop)
+    val data = StudentInfo("Ramesh", 21)
+    println(data)
 
-    val json = Json.encodeToString(StudentInfo.serializer(), lollipop)
+    val json = Json.encodeToString(StudentInfo.serializer(), data)
     println(json)
 }
 ```
@@ -113,6 +121,7 @@ StudentInfo(studentName=Ramesh, studentAge=21) //Printing the student model
 ## `𝙿𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚊𝚛𝚗𝚒𝚗𝚐 𝚏𝚘𝚛 𝚊 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚘𝚏 𝚖𝚘𝚍𝚎𝚕 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚗𝚘𝚝 𝚜𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚎𝚍`
 * Sometimes in a nested model hierarcy, There comes the scenario that one of the property is not initilized.
 * A useful property of Kotlinx is if you have nested data classes and haven’t defined any of them with @Serializable, the IDE will give you an error.
+* Sometimes its good to have this warning, but in other case it forces the class inferred to be annotated as serializable. 
 <p align="center">
 <a><img src="https://github.com/devrath/KotlinSerialization/blob/main/Assets/kotlinxError.png"></a>
 </p>
