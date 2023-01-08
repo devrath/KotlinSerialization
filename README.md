@@ -60,7 +60,7 @@ This repository describes how to use kotlin serialisation library in android app
 | Faster runtime performance | Slow runtime performance | Good runtime performance |
 | Increased build time | build time is not increased | Fast build time |
 * Moshi has more advanced features and provides a lower-level JSON API for maximum control
-* Kotlin Serialization is also used in KMP(Kotlin Multi Platfprm)
+* Kotlin Serialization is also used in KMP(Kotlin Multi Platform)
 * Kotlin Serialization is also compatible with unsigned integer types, value classes and sealed classes out-of-the-box.
 
 ## `𝙲𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚗𝚐 𝚊 𝙼𝚘𝚍𝚎𝚕 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗𝚝𝚘 𝚊 𝙹𝚂𝙾𝙽 𝚜𝚝𝚛𝚒𝚗𝚐`
