@@ -12,9 +12,10 @@ This repository describes how to use kotlin serialisation library in android app
 | ------ |
 | [```𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚍 𝙴𝚗𝚌𝚘𝚍𝚒𝚗𝚐```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%9A%86%F0%9D%9A%91%F0%9D%9A%8A%F0%9D%9A%9D-%F0%9D%9A%92%F0%9D%9A%9C-%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%A3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%8D-%F0%9D%99%B4%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90) |
 | [```𝚆𝚑𝚊𝚝 𝚒𝚜 𝙳𝚎-𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚍 𝙳𝚎𝚌𝚘𝚍𝚒𝚗𝚐```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%9A%86%F0%9D%9A%91%F0%9D%9A%8A%F0%9D%9A%9D-%F0%9D%9A%92%F0%9D%9A%9C-%F0%9D%99%B3%F0%9D%9A%8E-%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%A3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%8D-%F0%9D%99%B3%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90) |
-| [```𝙺𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚜𝚞𝚙𝚙𝚘𝚛𝚝𝚜 𝚖𝚊𝚗𝚢 𝚝𝚢𝚙𝚎𝚜```]() |    
+| [```𝙺𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚜𝚞𝚙𝚙𝚘𝚛𝚝𝚜 𝚖𝚊𝚗𝚢 𝚝𝚢𝚙𝚎𝚜```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%99%BA%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%A3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%9C%F0%9D%9A%9E%F0%9D%9A%99%F0%9D%9A%99%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%9D%F0%9D%9A%9C-%F0%9D%9A%96%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%A2-%F0%9D%9A%9D%F0%9D%9A%A2%F0%9D%9A%99%F0%9D%9A%8E%F0%9D%9A%9C) |    
 | [```𝙺𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝙼𝚘𝚜𝚑𝚒 𝚊𝚗𝚍 𝙶𝚜𝚘𝚗```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%99%BA%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%A3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%9A%A0%F0%9D%9A%92%F0%9D%9A%9D%F0%9D%9A%91-%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%9C%F0%9D%9A%91%F0%9D%9A%92-%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%8D-%F0%9D%99%B6%F0%9D%9A%9C%F0%9D%9A%98%F0%9D%9A%97) |
 | [```𝙲𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚗𝚐 𝚊 𝙼𝚘𝚍𝚎𝚕 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗𝚝𝚘 𝚊 𝙹𝚂𝙾𝙽 𝚜𝚝𝚛𝚒𝚗𝚐```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%8A-%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%95-%F0%9D%9A%8C%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%9D%F0%9D%9A%98-%F0%9D%9A%8A-%F0%9D%99%B9%F0%9D%9A%82%F0%9D%99%BE%F0%9D%99%BD-%F0%9D%9A%9C%F0%9D%9A%9D%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90) |
+| [```𝚃𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚒𝚗𝚐 𝚌𝚘𝚕𝚕𝚎𝚌𝚝𝚒𝚘𝚗 𝚝𝚘 𝙹𝚜𝚘𝚗 𝚜𝚝𝚛𝚒𝚗𝚐 𝚞𝚜𝚒𝚗𝚐 𝚔𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚋𝚕𝚎```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%8A-%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%95-%F0%9D%9A%8C%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%9D%F0%9D%9A%98-%F0%9D%9A%8A-%F0%9D%99%B9%F0%9D%9A%82%F0%9D%99%BE%F0%9D%99%BD-%F0%9D%9A%9C%F0%9D%9A%9D%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90) |
 | [```𝚄𝚜𝚒𝚗𝚐 @𝚃𝚛𝚊𝚗𝚜𝚒𝚎𝚗𝚝 𝚊𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚖𝚘𝚍𝚎𝚕```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%9A%84%F0%9D%9A%9C%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%83%F0%9D%9A%9B%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%9C%F0%9D%9A%92%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%9D-%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%96%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%95) |
 | [```𝙿𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚊𝚛𝚗𝚒𝚗𝚐 𝚏𝚘𝚛 𝚊 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚘𝚏 𝚖𝚘𝚍𝚎𝚕 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚗𝚘𝚝 𝚜𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚎𝚍```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%99%BF%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%9F%F0%9D%9A%92%F0%9D%9A%8D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%9A%A0%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%8F%F0%9D%9A%98%F0%9D%9A%9B-%F0%9D%9A%8A-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%99%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9D%F0%9D%9A%A2-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%9A%96%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%95-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8A%F0%9D%9A%9D-%F0%9D%9A%92%F0%9D%9A%9C-%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D-%F0%9D%9A%9C%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%A3%F0%9D%9A%8E%F0%9D%9A%8D) |
 | [```𝙰𝚍𝚍𝚒𝚗𝚐 𝚊 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚟𝚊𝚕𝚞𝚎 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚏 𝚝𝚑𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚒𝚜 𝚗𝚘𝚝 𝚙𝚛𝚎𝚜𝚎𝚗𝚝 𝚒𝚗 𝚝𝚑𝚎 𝙰𝙿𝙸 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚎```](https://github.com/devrath/KotlinSerialization/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%8D%F0%9D%9A%8D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90-%F0%9D%9A%8A-%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%8F%F0%9D%9A%8A%F0%9D%9A%9E%F0%9D%9A%95%F0%9D%9A%9D-%F0%9D%9A%9F%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%9E%F0%9D%9A%8E-%F0%9D%9A%8F%F0%9D%9A%98%F0%9D%9A%9B-%F0%9D%9A%8A-%F0%9D%9A%96%F0%9D%9A%98%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%95-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%99%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9D%F0%9D%9A%A2-%F0%9D%9A%92%F0%9D%9A%8F-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%99%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9D%F0%9D%9A%A2-%F0%9D%9A%92%F0%9D%9A%9C-%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%9C%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%9D-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%99%B0%F0%9D%99%BF%F0%9D%99%B8-%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%9C%F0%9D%9A%99%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C%F0%9D%9A%8E) |
@@ -122,6 +123,35 @@ fun main() {
 StudentInfo(studentName=Ramesh, studentAge=21) //Printing the student model
 {"name":"Ramesh","age":21} //Printing the json string
 ```
+
+## `𝚃𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚒𝚗𝚐 𝚌𝚘𝚕𝚕𝚎𝚌𝚝𝚒𝚘𝚗 𝚝𝚘 𝙹𝚜𝚘𝚗 𝚜𝚝𝚛𝚒𝚗𝚐 𝚞𝚜𝚒𝚗𝚐 𝚔𝚘𝚝𝚕𝚒𝚗𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚋𝚕𝚎`
+* We have used list collection as example, But we can use for many other collections similarly.
+
+```kotlin
+@Serializable
+data class StudentInfo(
+    val studentName: String,
+    val studentAge: Int = 21,
+)
+
+fun main() {
+    val student1 = StudentInfo("Ramesh", 21)
+    val student2 = StudentInfo("Suresh", 21)
+    val student3 = StudentInfo("Monica", 21)
+    val student4 = StudentInfo("Peter", 21)
+    val student5 = StudentInfo("Antony", 21)
+    val studentList = listOf(student1,student2,student3,student4,student5)
+
+    val studentsSerializer = ListSerializer(StudentInfo.serializer())
+    val json = Json.encodeToString(studentsSerializer, studentList)
+    println(json)
+}
+```
+
+```kotlin
+[{"studentName":"Ramesh"},{"studentName":"Suresh"},{"studentName":"Monica"},{"studentName":"Peter"},{"studentName":"Antony"}]
+```
+
 
 ## `𝙿𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚊𝚛𝚗𝚒𝚗𝚐 𝚏𝚘𝚛 𝚊 𝚙𝚛𝚘𝚙𝚎𝚛𝚝𝚢 𝚘𝚏 𝚖𝚘𝚍𝚎𝚕 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚗𝚘𝚝 𝚜𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚎𝚍`
 * Sometimes in a nested model hierarcy, There comes the scenario that one of the property is not initilized.
