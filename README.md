@@ -2,8 +2,7 @@
 <img src="https://github.com/devrath/devrath/blob/master/images/kotlin_logo.png" align="right" title="Kotlin Logo" width="120">
 
 # KotlinSerialization  🧞‍
-This repository describes how to use kotlin serialisation library in android applications
-
+𝚃𝚑𝚒𝚜 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚜 𝚒𝚗𝚜𝚝𝚛𝚞𝚌𝚝𝚒𝚘𝚗𝚜 𝚘𝚗 𝚞𝚝𝚒𝚕𝚒𝚣𝚒𝚗𝚐 𝚝𝚑𝚎 𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚎𝚛𝚒𝚊𝚕𝚒𝚣𝚊𝚝𝚒𝚘𝚗 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚒𝚗 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗𝚜.
 [![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)
 [![JetBrains official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
