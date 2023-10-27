@@ -1,3 +1,4 @@
+![github-header-image (2)](https://github.com/devrath/KotlinSerialization/assets/1456191/3652944e-6aa7-4f08-9772-afd7628cf9c1)
 <img src="https://github.com/devrath/devrath/blob/master/images/kotlin_logo.png" align="right" title="Kotlin Logo" width="120">
 
 # KotlinSerialization  🧞‍
