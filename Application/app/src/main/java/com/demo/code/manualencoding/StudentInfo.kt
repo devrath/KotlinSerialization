@@ -12,11 +12,14 @@ data class StudentInfo(
     val studentName: String,
     @SerialName("age")
     val studentAge: Int,
+    @SerialName("address")
     val address: Address
 )
 
 fun main() {
-    val lollipop = StudentInfo("Ramesh", 21)
+    val lollipop = StudentInfo("Ramesh", 21,Address(
+        address = "address", pinCode = 123
+    ))
     println(lollipop)
 
     val json = Json.encodeToString(StudentInfo.serializer(), lollipop)

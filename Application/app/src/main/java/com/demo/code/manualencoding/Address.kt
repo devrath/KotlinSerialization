@@ -1,3 +1,12 @@
 package com.demo.code.manualencoding
 
-data class Address (val address: String,val pinCode:Int)
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class Address (
+    @SerialName("address")
+    val address: String,
+    @SerialName("pinCode")
+    val pinCode:Int
+)
